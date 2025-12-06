@@ -22,9 +22,7 @@ const Header = () => {
             </div>
 
             {/* Navbar */}
-            <nav className="relative z-10 w-full fixed top-0 left-0">
-                <Navbar links={navLinks} className="justify-center" />
-            </nav>
+            <Navbar links={navLinks} className="justify-center" />
 
             {/* Hero Content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
