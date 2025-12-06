@@ -50,7 +50,7 @@ const Navbar = ({ links = [], className = "", variant = "fixed" }) => {
             <div className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-primary shadow-md py-4" : "bg-transparent py-6"} ${className}`}>
                 <div className="container mx-auto flex justify-between items-center px-6">
                     {/* Logo / Brand Name */}
-                    <div className={`flex items-center gap-3 transition-opacity duration-300 ${scrolled || isOpen ? "opacity-100" : "opacity-0"} md:hidden`}>
+                    <div className={`hidden md:flex items-center gap-3 transition-opacity duration-300 ${scrolled || isOpen ? "opacity-100" : "opacity-0"}`}>
                         <img src={SchoolLogo} alt="Logo" className="h-10 w-auto" />
                         <div className="text-md font-bold text-white">
                             SMP QUR'AN ASY SYAUQI
@@ -91,7 +91,7 @@ const Navbar = ({ links = [], className = "", variant = "fixed" }) => {
             >
                 {/* Close Button */}
                 <button 
-                    className="absolute top-6 right-6 text-white p-2 hover:bg-white/10 rounded-full transition-colors"
+                    className="absolute top-6 left-6 text-white p-2 hover:bg-white/10 rounded-full transition-colors"
                     onClick={() => setIsOpen(false)}
                     aria-label="Close Menu"
                 >
