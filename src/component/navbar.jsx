@@ -33,6 +33,7 @@ const Navbar = ({ links = [], className = "", variant = "fixed" }) => {
 
   // Reset state on route change
   useEffect(() => {
+    window.scrollTo(0, 0);
     setScrolled(false);
     setIsOpen(false);
   }, [location.pathname]);
