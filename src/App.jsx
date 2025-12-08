@@ -1,21 +1,26 @@
-import Header from "./page/header";
-import VisiMisi from "./page/main/seaction__visiMisi";
-import ProgramUnggulan from "./page/main/seaction__programUnggulan";
-import Fasilitas from "./page/main/seaction__fasilitas";
-import Testimoni from "./page/main/seaction__testimoni";
-import Footer from "./page/footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./component/navbar";
+import Home from "./Home";
+import About from "./page/about";
+import Contact from "./page/contact";
 
-const App = () => {
+function App() {
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About Us" },
+    { href: "/contact", label: "Contact Us" },
+  ];
+
   return (
-    <>      
-      <Header />
-      <VisiMisi />
-      <ProgramUnggulan />
-      <Fasilitas />
-      <Testimoni />
-      <Footer />
-    </>
+    <Router>
+      <Navbar links={navLinks} className="justify-center" />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
-export default App; 
+export default App;
