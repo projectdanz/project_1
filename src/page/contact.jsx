@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import ayokPondok from "../assets/image/ayokPondok.png";
 import { FaWhatsapp } from "react-icons/fa";
+import Button from "../component/Button";
 
 
 const Contact = () => {
@@ -209,8 +210,14 @@ const Contact = () => {
           </div>
         </div>
 
+        <div className="mt-8 flex justify-center">
+          <Button variant="primary" className="bg-amber-600 hover:bg-amber-700 px-24 py-3 text-lg font-semibold rounded-full shadow-lg transition-all duration-300">
+            Daftar Sekarang
+          </Button>
+        </div>
+
         {/* Map Section */}
-        <div className="mt-12 bg-white p-4 rounded-3xl shadow-lg">
+        <div className="mt-16 bg-white p-4 rounded-3xl shadow-lg">
           <div className="w-full h-96 rounded-2xl overflow-hidden relative">
             <iframe
               title="Map SMP Quran Asy Syauqi"
