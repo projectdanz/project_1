@@ -1,5 +1,6 @@
 import Navbar from "../component/navbar";
 import SchoolLogo from "../assets/icon/iconPondok.png";
+import Button from "../component/Button";
 
 const Footer = () => {
   const navLinks = [
@@ -51,17 +52,20 @@ const Footer = () => {
           </div>
 
           {/* Right Column: Map */}
-          <div className="w-full h-72 bg-gray-800 rounded-2xl overflow-hidden shadow-2xl border border-gray-700">
-            <iframe
-              src="https://maps.google.com/maps?q=SMP+QUR'AN+ASY+SYAUQI+Indramayu&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              title="Lokasi Sekolah"
-            ></iframe>
+          <div className="flex flex-col gap-6">
+            <div className="w-full h-72 bg-gray-800 rounded-2xl overflow-hidden shadow-2xl border border-gray-700">
+              <iframe
+                src="https://maps.google.com/maps?q=SMP+QUR'AN+ASY+SYAUQI+Indramayu&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                title="Lokasi Sekolah"
+              ></iframe>
+            </div>
+            <Button className="w-full">Daftar Sekarang</Button>
           </div>
         </div>
 
