@@ -16,9 +16,12 @@ const Header = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-wide drop-shadow-lg">
-          SMP QUR'AN ASY SYAUQI
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-wide drop-shadow-lg">
+          SMP QUR'AN ASSYAUQI
         </h1>
+        <h2 className="text-2xl md:text-4xl font-bold mb-4 tracking-wide drop-shadow-lg">
+          BOARDING SCHOOL
+        </h2>
         <p className="text-lg md:text-xl mb-8 max-w-2xl drop-shadow-md">
           “Mendidik Generasi Qur’ani Yang Terbangun Jiwa Leadership Dan
           Enterpreneurship”

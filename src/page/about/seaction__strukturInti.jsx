@@ -31,7 +31,7 @@ const Seaction__strukturInti = () => {
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4"></div>
           <p className="text-slate-600 max-w-2xl mx-auto">
             Mengenal para pemimpin yang berdedikasi dalam mengembangkan visi dan
-            misi SMP Qur'an Asy Syauqi.
+            misi SMP Qur'an Assyauqi.
           </p>
         </div>
 

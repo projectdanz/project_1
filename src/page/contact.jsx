@@ -228,7 +228,7 @@ const Contact = () => {
         <div className="mt-16 bg-white p-4 rounded-3xl shadow-lg">
           <div className="w-full h-96 rounded-2xl overflow-hidden relative">
             <iframe
-              title="Map SMP Quran Asy Syauqi"
+              title="Map SMP Quran Assyauqi"
               width="100%"
               height="100%"
               frameBorder="0"

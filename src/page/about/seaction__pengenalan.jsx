@@ -17,7 +17,7 @@ const Seaction__pengenalan = () => {
             <div className="absolute -inset-4 bg-primary/20 rounded-3xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
             <img
               src={imageSchool}
-              alt="Gedung Sekolah SMP Qur'an Asy Syauqi"
+              alt="Gedung Sekolah SMP Qur'an Assyauqi"
               className="relative rounded-3xl shadow-2xl w-full h-[400px] lg:h-[500px] object-cover transform transition-transform duration-500 group-hover:scale-[1.01]"
             />
             {/* Floating Badge */}
@@ -58,7 +58,7 @@ const Seaction__pengenalan = () => {
               yang Berkarakter
             </h2>
             <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-              SMP Qur'an Asy Syauqi hadir sebagai lembaga pendidikan yang
+              SMP Qur'an Assyauqi hadir sebagai lembaga pendidikan yang
               memadukan kurikulum nasional dengan nilai-nilai kepesantrenan.
               Kami berkomitmen untuk mencetak generasi yang tidak hanya cerdas
               secara intelektual, tetapi juga memiliki akhlak mulia dan jiwa

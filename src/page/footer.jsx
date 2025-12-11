@@ -19,7 +19,7 @@ const Footer = () => {
               <div className="flex items-center gap-3 mb-4">
                 <img src={SchoolLogo} alt="Logo" className="h-12 w-auto" />
                 <h3 className="text-2xl font-bold tracking-wide">
-                  SMP QUR'AN ASY SYAUQI
+                  SMP QUR'AN ASSYAUQI
                 </h3>
               </div>
               <p className="text-gray-400 text-sm">
@@ -65,18 +65,11 @@ const Footer = () => {
                 title="Lokasi Sekolah"
               ></iframe>
             </div>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeiVbj1oUbye_KVPuX1ln60Jt8aTkC3JCmzb943GMXLpIrthA/viewform?usp=publish-editor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button className="w-full">Daftar Sekarang</Button>
-            </a>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} SMP Qur'an Asy Syauqi. All rights
+          &copy; {new Date().getFullYear()} SMP Qur'an Assyauqi. All rights
           reserved.
         </div>
       </div>

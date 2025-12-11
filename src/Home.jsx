@@ -5,6 +5,7 @@ import Fasilitas from "./page/main/seaction__fasilitas";
 import Testimoni from "./page/main/seaction__testimoni";
 import Footer from "./page/footer";
 import { FaWhatsapp } from "react-icons/fa";
+import Button from "./component/Button";
 
 const Home = () => {
   return (
@@ -13,6 +14,15 @@ const Home = () => {
       <VisiMisi />
       <ProgramUnggulan />
       <Fasilitas />
+      <div className="flex justify-center pb-8">
+        <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeiVbj1oUbye_KVPuX1ln60Jt8aTkC3JCmzb943GMXLpIrthA/viewform?usp=publish-editor"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="w-64 py-4">Daftar Sekarang</Button>
+            </a>
+      </div>
       <Testimoni />
       <Footer />
 

@@ -82,7 +82,7 @@ const Navbar = ({ links = [], className = "", variant = "fixed" }) => {
           >
             <img src={SchoolLogo} alt="Logo" className="h-10 w-auto" />
             <div className="text-md font-bold text-white">
-              SMP QUR'AN ASY SYAUQI
+              SMP QUR'AN ASSYAUQI
             </div>
           </div>
 

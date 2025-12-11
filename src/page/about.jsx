@@ -26,7 +26,7 @@ const About = () => {
           </h1>
           <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full mb-6"></div>
           <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto font-light">
-            Mengenal lebih dekat profil, visi, dan misi SMP Qur'an Asy Syauqi
+            Mengenal lebih dekat profil, visi, dan misi SMP Qur'an Assyauqi
           </p>
         </div>
       </div>
